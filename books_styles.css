@@ -1,0 +1,84 @@
+html {
+    background-color: #eaddee;
+  }
+  
+  #navbar {
+    background-color: #c0625a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+  }
+  
+  #navbar header {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #f6ede8;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border: 2px solid #f6ede8;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 1000px) {
+    #navbar {
+      width: 30vw;
+    }
+    main {
+      margin-left: 30vw;
+    }
+  }
+  
+  
+  #navbar .nav-link {
+    color: #f6ede8;
+    text-decoration: none;
+    padding: 0;
+  }
+  
+  #navbar li {
+    display: list-item;
+    list-style: none;
+    position: relative;
+    padding: 10px 5px 10px 0;
+    margin-left: 0;
+    border-left: 0;
+    height: 10%;
+    border-top: 1px solid #f1bc90;
+    font-size: 20px;
+  }
+  
+  main {
+    color: #000000;
+    display: block;
+    margin-left: 300px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 1000px) {
+    main {
+      margin-left: 30vw;
+    }
+  }
+  
+  h1 {
+    padding-top: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+  
+  section {
+    font-size: 20px;
+  }
+  
+  section header {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .author, .genre {
+    font-size: 20px;
+  }
