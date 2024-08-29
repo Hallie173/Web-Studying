@@ -3,7 +3,7 @@ html {
   }
   
   #navbar {
-    background-color: #c0625a;
+    background-color: #070540;
     position: fixed;
     top: 0;
     left: 0;
@@ -11,6 +11,13 @@ html {
     width: 300px;
   }
   
+  h1 {
+    text-align: center;
+    margin: 40px auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+  }
+
   #navbar header {
     font-size: 25px;
     text-align: center;
@@ -37,6 +44,7 @@ html {
     color: #f6ede8;
     text-decoration: none;
     padding: 0;
+    display: flex;
   }
   
   #navbar li {
@@ -46,16 +54,16 @@ html {
     padding: 10px 5px 10px 0;
     margin-left: 0;
     border-left: 0;
-    height: 10%;
+    height: 50px;
     border-top: 1px solid #f1bc90;
-    font-size: 20px;
+    font-size: 25px;
   }
   
   main {
     color: #000000;
     display: block;
     margin-left: 300px;
-    padding: 20px;
+    padding: 20px 50px 20px 50px;
   }
   
   @media (max-width: 1000px) {
@@ -65,20 +73,37 @@ html {
   }
   
   h1 {
-    padding-top: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
     margin-top: 0;
     text-transform: uppercase;
+    color: #f23558;
   }
   
   section {
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 20px;
   }
   
   section header {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: #f25050;
   }
-  
-  .author, .genre {
-    font-size: 20px;
+
+  .book-image {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    width: 306px;
+    height: 445px;
+    border: 3px solid #f23558;
+  }
+
+  span {
+    font-style: italic;
+    font-weight: bold;
   }
