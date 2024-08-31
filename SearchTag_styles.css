@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color1: #DF825F;
+    --color2: #F8956F;
+    --color3: #DFB15B;
+    --color4: #4D446F;
+    --color5: #706695;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    height: 100vh;
+    background: linear-gradient(var(--color1), var(--color2), var(--color3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 22px;;
+}
+
+.content {
+    border: 1px solid var(--color4);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.content li {
+    background: var(--color4);
+    border-radius: 5px;
+    color: white;
+    list-style: none;
+    margin: 4px 3px;
+    padding: 10px;
+}
+
+.content li i {
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.content input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 10px 5px;
+    flex: 1;
+}
+
+.remove-all {
+    background: var(--color5);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px;
+    margin-left: 0;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.remove-all:hover {
+    background: var(--color4);
+}
